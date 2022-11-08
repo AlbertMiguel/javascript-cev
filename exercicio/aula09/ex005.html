@@ -21,13 +21,15 @@
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[0]
-        var d = window.document.getElementById('msg')
+        // var d = window.document.getElementById('msg')
         window.document.write('Esta escrito assim: ' + p1.innerText)
         p1.style.color = 'black'
         corpo.style.background = 'lightcoral'
-        d.style.color = 'lightgreen'
+        // d.style.color = 'lightgreen'
         // d.innerText = 'Estou aguardando... '
-        window.document.getElementById('msg').innerText = 'Olá, mundd'
+        // window.document.getElementById('msg').innerText = 'Olá, mundo'
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'lightblue'
     </script>
 </body>
 </html>
