@@ -19,8 +19,13 @@
         function Calc() {
             var nasc = window.document.getElementById('nac')
             var res = window.document.getElementById('res')
-            var loc = String(nasc)
-            res.innerHTML = `O pais que você mora é ${loc}`
+            var loc = String(nasc.value)
+            res.innerHTML = `<p>O pais que você mora é ${loc}</p>`
+            if (loc == "Brasil") {
+                res.innerHTML += '<p>Você é brasileiro</p>'
+            } else {
+                res.innerHTML += '<p>Você é estranjeiro</p>'
+            }
         }
     </script>
 </body>
