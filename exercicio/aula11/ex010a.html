@@ -7,7 +7,21 @@
     <title>JavaScript</title>
 </head>
 <body>
+    <input type="" name="" id="">
+
     <H1>Onde você mora</H1>
-    
+    Qual pais você mora? <input type="text" name="nac" id="nac">
+    <input type="button" value="Eu sou" onclick="Calc()">
+    <div id="res">
+        Eu sou
+    </div>
+    <script>
+        function Calc() {
+            var nasc = window.document.getElementById('nac')
+            var res = window.document.getElementById('res')
+            var loc = String(nasc)
+            res.innerHTML = `O pais que você mora é ${loc}`
+        }
+    </script>
 </body>
 </html>
