@@ -1,11 +1,12 @@
 body {
-    background: lightblue ;
+    background: rgb(135, 221, 250) ;
     font: normal 15pt arial;
     
 }
 
 header {
     text-align: center;
+    color: white;
 }
 
 section {
@@ -14,7 +15,11 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164) ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24) ;
+}
+
+img {
+    border-radius: 50%;
 }
 
 footer {
