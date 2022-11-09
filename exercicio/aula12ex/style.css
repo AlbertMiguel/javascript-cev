@@ -18,12 +18,22 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24) ;
 }
 
-img {
-    border-radius: 50%;
+div {
+    text-align: center;
+    padding: 8px;
 }
 
-footer {
+img {
+    border-radius: 100px;
+}
+
+footer, a {
     color: white;
     text-align: center;
     font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    font: bolder 30pt italic;
 }
