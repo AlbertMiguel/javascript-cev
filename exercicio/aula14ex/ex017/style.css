@@ -1,11 +1,12 @@
 body {
-    background: lightblue ;
+    background: rgb(20, 173, 224) ;
     font: normal 15pt arial;
     
 }
 
 header {
-
+    text-align: center;
+    color: white;
 }
 
 section {
